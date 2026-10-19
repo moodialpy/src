@@ -1,0 +1,7 @@
+accessWidener	v1	named
+accessible	class	net/minecraft/client/gui/components/OptionsList$Entry
+accessible	method	net/minecraft/client/renderer/RenderPipelines	register	(Lcom/mojang/blaze3d/pipeline/RenderPipeline;)Lcom/mojang/blaze3d/pipeline/RenderPipeline;
+accessible	field	net/minecraft/client/gui/screens/Screen	renderables	Ljava/util/List;
+accessible	field	net/minecraft/client/gui/screens/TitleScreen	fading	Z
+accessible	field	net/minecraft/client/gui/components/CycleButton	name	Lnet/minecraft/network/chat/Component;
+accessible	field	net/minecraft/client/gui/components/OptionsList$Entry	children	Ljava/util/List;

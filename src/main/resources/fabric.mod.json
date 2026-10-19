@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "moodialep",
+  "version": "${version}",
+  "name": "! MoodialEP",
+  "description": "Highlights the blocks you choose through walls. Standalone version of the BlockESP module of Meteor Client, with its own settings window.",
+  "authors": [],
+  "contact": {
+    "sources": "https://github.com/MeteorDevelopment/meteor-client"
+  },
+  "license": "GPL-3.0-or-later",
+  "icon": "assets/moodialep/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "net.wimods.moodialep.MoodialEpModInitializer"
+    ],
+    "modmenu": [
+      "net.wimods.moodialep.MoodialEpModMenuApi"
+    ]
+  },
+  "mixins": [
+    "moodialep.mixins.json"
+  ],
+  "accessWidener": "moodialep.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "fabric-api": ">=0.140.0",
+    "modmenu": "^17.0.0-alpha.1",
+    "cloth-config": "^21.11.150",
+    "minecraft": "~1.21.11-beta.1",
+    "java": ">=21"
+  }
+}
